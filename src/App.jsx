@@ -13,6 +13,7 @@ import Cart from './pages/Cart';
 import Orders from './pages/Orders';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
+import Profile from './components/Auth/Profile';
 
 import './App.css';
 
@@ -28,6 +29,7 @@ function App() {
               <Route path="/products/:id" element={<ProductDetail />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
+              <Route path='/profile' element={<Profile />}/>
               <Route 
                 path="/cart" 
                 element={
